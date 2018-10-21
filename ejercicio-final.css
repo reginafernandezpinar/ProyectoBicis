@@ -1,0 +1,226 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #2a0800;
+}
+
+/* header */
+
+.header {
+    display: flex;
+    padding: 10px;
+}
+.header .logo-container {
+    border-radius: 50%;
+    border: solid 1px  #e28011;
+    padding: 5px;
+}
+.menubar-list {
+    width: 100%;
+    margin-right: 30px;
+    display: flex;
+    justify-content: flex-end;
+    color: #2a0800;
+}
+
+.menubar-list a {
+    margin-left: 100px;
+    text-decoration: none;
+    color: #2a0800;
+}
+.menubar-list a:hover {
+    font-weight: bold;
+}
+
+/* Main and aside container pagina 1*/
+
+#main-container {
+    height: 70vh;
+    width: 100%;
+    margin: 2% 0 5% 0;
+    background-color: #e28011;
+    position: relative;
+}
+.brand {
+    float: left;
+    margin: 70px 0 0 30px;
+    color: wheat;
+    font-size: -webkit-xxx-large;
+    font-weight: 500;
+}
+.aside-container{
+    float: right;
+    height: 80vh;
+    width: 35%;
+    border: solid white 10px;
+    position: absolute;
+    top: 30px;
+    right: 50px;
+    background-image: url(Imagenes/bici-portada.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.news-title {
+    color: #2a0800;
+    font-weight: 500;
+    font-style: oblique;
+    font-size: 25px;
+}
+.title-news1 .news-title {
+    margin-left: 40px;
+}
+.news {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+.news div {
+    width: 20%;
+    text-align: center;
+}
+
+/* Main container pagina 2*/
+.ofertas {
+text-align: center;
+}
+
+.catalogo {
+    display: flex;
+    justify-content: space-around;
+    height: 60vh;
+    flex-wrap: wrap;
+    margin: 25px;
+}
+.catalogo > div {
+    width: 49%;
+    height: 49%;
+    background-size: cover;
+    background-position: center;
+}
+.cesta {
+    background-image: url(Imagenes/cesta2.jpg);
+}
+.electronica {
+    background-image: url(Imagenes/movil.jfif)
+}
+.calcetines {
+    background-image: url(imagenes/socks.jfif)
+}
+.accesorios {
+    background-image: url(imagenes/mochila.jpg)
+}
+a.parrafo {
+   color:white;
+   font-weight: bold;
+   font-size: 2em;
+   margin-left: 5%;
+   margin-top: 5%;
+   text-decoration: none;
+}
+a.parrafo:hover {
+    font-size: 3em;
+}
+
+
+/* Main container pagina 3*/
+
+
+#about {
+    color: #2a08006e;
+    padding: 0 10% 3% 10%;
+}
+
+#about a {
+    text-decoration: none;
+    color: #e28011;
+}
+/* #about a:hover {
+    background-image: url(https://s3.pixers.pics/pixers/700/FO/30/91/62/69/700_FO30916269_3cc974e89ca987574721d6a11c556a52.jpg);
+    opacity: .5;
+    background-size: 
+    
+} */
+
+
+#about .story {
+    margin-bottom:10px;
+    margin-top: 20px;
+}
+
+#about div {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
+/* Mapa and location container pagina 4 */
+
+#mapa-container {
+    float: left;
+    margin: 5% 0 0 10%;
+}
+
+#location-container{
+    float: right;
+    height: 600px;
+    width: 40%;
+    color: #2a0800;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#location-container .news-title {
+    margin-bottom: 10px;
+}
+
+
+.web {
+    font-weight: bold;
+    margin-top: 32px;
+    margin-bottom: 10px;
+}
+#location-container a {
+    color:  #2a0800;
+}
+
+
+
+
+
+
+
+/* Footer */
+
+.footer-container {
+    width: 100%;
+    background-color: #2a0800;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    /* position: absolute;
+    bottom: 0; */
+}
+.footer-container ul {
+    list-style: none;
+    padding: 0;
+    font-size: small;
+    font-weight: lighter;
+    text-align: center;
+}
+.item-em {
+    font-size: 1.3em;
+    font-weight: bolder;
+    font-style: italic
+    margin-bottom: 5px;
+}
+li.iconos {
+    display: inline;
+    margin: 5px;
+}
+li.iconos a {
+    color: white;
+}

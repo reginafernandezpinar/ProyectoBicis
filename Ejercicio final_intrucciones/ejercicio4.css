@@ -1,0 +1,69 @@
+#capa1, #capa2, #capa3, #capa4 {
+    width: 500px;
+	height:200px;
+	margin-bottom:20px;
+}
+#capa1 p, #capa2 p, #capa3 p, #capa4 p {
+    padding:10px;
+}
+
+#capa1 p {
+    font-family: Arial;
+    font-size: 0.9em;
+    color:#000;
+    line-height: 1em;
+}
+
+#capa1 {
+	background-color:red;
+    border-top:yellow solid 2px;
+    border-bottom: blue solid 2px;
+}
+
+#capa2 {
+	background-color:yellow;   
+    border-left:red solid 2px;
+    border-right: blue solid 2px;
+}
+
+#capa2 p {
+    font-family: Courier;
+    font-size: 1.1em;
+    color:#333;
+    line-height: 1.2em;
+}
+
+#capa3 {
+	background-color:blue;
+    overflow: auto;
+    border-width: 4px;
+    border-left-color: red;
+    border-right: blue;
+    border-bottom: green;
+    border-top:yellow;
+    border-style: solid;
+}
+
+#capa3 p {
+    font-family: Verdana;
+    font-size: 1.2em;
+    color:#ccc;
+    line-height: 1.2em;
+}
+
+
+
+#capa4 {
+	background-image:url(imagen1.jpg);
+    background-position:center center;
+    background-repeat: no-repeat;
+    border:yellow solid 4px;
+}
+
+
+#capa4 p {
+    font-family: Helvetica;
+    font-size: 0.98em;
+    color:#bbb;
+    line-height: 1.6em;
+}
